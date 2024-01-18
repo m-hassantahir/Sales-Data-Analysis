@@ -1,22 +1,25 @@
-I start by cleaning my data. Tasks during this section include:
+I start the project by importing 12 monthly csv files into python. I used glob package for this. 
 
-Dropping NaN values from my DataFrame
-Removing rows based on a specific condition
-Changing the type of columns (using to_numeric, to_datetime, astype)
+The next step was to clean the data. Tasks during this section include:
+
+1. Dropping NaN values from my DataFrame
+2. Removing rows based on a specific condition
+3. Changing the type of columns (using to_numeric, to_datetime, astype)
+
 Once I've cleaned up my data, I move on to the data exploration section. Here, I explore five high-level business questions related to the data:
 
-What was the best month for sales? How much was earned during that month?
-Which city sold the most product?
-What time should I display advertisements to maximize the likelihood of customers buying products?
-Which products are most often sold together?
-What product sold the most? Why do I think it sold the most?
+1. What was the best month for sales? How much was earned during that month?
+2. Which city sold the most product?
+3. What time should I display advertisements to maximize the likelihood of customers buying products?
+4. Which products are most often sold together?
+5. What product sold the most? Why do I think it sold the most?
 
 To answer these questions, I utilize various pandas and matplotlib methods, including:
 
-Concatenating multiple CSVs together to create a new DataFrame (using pd.concat)
-Adding new columns
-Parsing cells as strings to create additional columns (using the .str accessor)
-Applying custom functions to elements using the .apply() method
-Performing aggregate analysis using groupby
-Creating bar charts and line graphs to visualize the results
-Labeling the graphs for clarity
+1. Concatenating multiple CSVs together to create a new DataFrame (using pd.concat)
+2. Adding new columns
+3. Parsing cells as strings to create additional columns (using the .str accessor)
+4. Applying custom functions to elements using the .apply() method
+5. Performing aggregate analysis using groupby
+6. Creating bar charts and line graphs to visualize the results
+7. Labeling the graphs for clarity
