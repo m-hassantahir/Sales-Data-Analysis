@@ -1,4 +1,4 @@
-E-Commerce Sales Analysis: Optimizing Marketing and Growth
+# E-Commerce Sales Analysis: Optimizing Marketing and Growth
 
 I start the project by importing 12 monthly csv files into python. I used glob package for this. 
 
