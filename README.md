@@ -1,6 +1,8 @@
+E-Commerce Sales Analysis: Optimizing Marketing and Growth
+
 I start the project by importing 12 monthly csv files into python. I used glob package for this. 
 
-The next step was to clean the data. Tasks during this section include:
+This project analyzes 12 months of sales data from an e-commerce store to answer key business questions and uncover actionable insights. Tasks during this section include:
 
 1. Dropping NaN values from my DataFrame
 2. Removing rows based on a specific condition
@@ -14,7 +16,12 @@ Once I've cleaned up my data, I move on to the data exploration section. Here, I
 4. Which products are most often sold together?
 5. What product sold the most? Why do I think it sold the most?
 
-To answer these questions, I utilize various pandas and matplotlib methods, including:
+Technical Stack:
+1. Python, pandas, matplotlib
+2. Data cleaning methods: pd.dropna, DataFrame.query, astype
+3. Data exploration methods: pd.concat, custom functions with .apply, groupby, visualizations
+
+To answer these questions, I utilize various methods, including:
 
 1. Concatenating multiple CSVs together to create a new DataFrame (using pd.concat)
 2. Adding new columns
